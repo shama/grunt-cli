@@ -1,7 +1,7 @@
 {
-  "name": "grunt-cli",
-  "description": "The grunt command line interface.",
-  "version": "0.1.11",
+  "name": "wait-grunt",
+  "description": "An alternative to the Grunt command line interface. Ability to fork Grunt but have it wait for a signal before executing.",
+  "version": "0.1.0",
   "author": "Grunt Team",
   "homepage": "http://gruntjs.com/",
   "repository": {
@@ -18,13 +18,13 @@
     }
   ],
   "bin": {
-    "grunt": "bin/grunt"
+    "wait-grunt": "bin/wait-grunt"
   },
   "engines": {
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "test": "node bin/grunt test"
+    "test": "node test/test.js"
   },
   "preferGlobal": true,
   "dependencies": {
